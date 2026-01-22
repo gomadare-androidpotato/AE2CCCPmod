@@ -1,0 +1,19 @@
+{
+  "package": "com.gomadare.ae2cccopatch.mixin",
+  "required": true,
+  "refmap": "mixins.ae2cccopatch.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8.5",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinCachedPlane",
+    "MixinCachedPlaneColumn",
+    "MixinStorageChunkProvider",
+    "MixinStorageHelper",
+    "accessor.BlockStorageDataAccessor",
+    "accessor.CachedPlaneAccessor",
+    "accessor.TelDestinationAccessor"
+  ],
+  "server": [],
+  "client": []
+}
